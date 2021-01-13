@@ -450,14 +450,13 @@ h1 {
   text-align: left;
   padding-left: 29px;
   cursor: pointer;
+  position: relative;
 }
 
 .forms {
   display: flex;
 }
-.telega-link {
-  position: relative;
-}
+
 .icon-telega {
   width: 24px;
   height: 24px;
