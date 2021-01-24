@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+body {
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  display: none;
+}
