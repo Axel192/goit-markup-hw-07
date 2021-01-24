@@ -4,11 +4,11 @@
     "sources": [
         "../sass/main2.scss",
         "../sass/utils/_variables2.scss",
-        "../sass/base2/_base.scss",
-        "../sass/base2/_container.scss",
-        "../sass/components2/_header.scss",
-        "../sass/components2/_main.scss",
-        "../sass/components2/_footer.scss"
+        "../sass/base/_base2.scss",
+        "../sass/base/_container2.scss",
+        "../sass/components/_header2.scss",
+        "../sass/components/_main.scss",
+        "../sass/components/_footer2.scss"
     ],
     "names": [],
     "file": "main2.min.css"
