@@ -26,7 +26,7 @@ body {
 }
 
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
 }
 
 *,
@@ -34,6 +34,15 @@ body {
 *::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .icon-block {
@@ -56,6 +65,71 @@ body {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
+}
+
+.icons-svg {
+  position: absolute;
+  left: 15px;
+  top: 32px;
+  width: 12px;
+  height: 12px;
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.deb {
+  background-color: #43444d;
+}
+
+.debb {
+  fill: #ffffff;
+}
+
+.tt:hover .deb {
+  background-color: #2196f3;
+}
+
+.mail-svg {
+  fill: #757575;
+  margin-right: 10px;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mail:hover .mail-svg {
+  fill: #2196f3;
+}
+
+.phone-svg {
+  fill: #757575;
+  margin-right: 10px;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.phone:hover .phone-svg {
+  fill: #2196f3;
+}
+
+.icon-card {
+  width: 44px;
+  height: 44px;
+}
+
+.icon-block {
+  padding: 0;
+  margin-top: 16px;
+}
+
+.icon-card {
+  color: #2f303a;
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+
+.icon-card:last-child {
+  margin-right: 0;
 }
 
 .icon-link {
@@ -86,25 +160,6 @@ body {
 
 .icon-link:hover .wh {
   fill: #ffffff;
-}
-
-.icons-svg {
-  position: absolute;
-  left: 15px;
-  top: 32px;
-  width: 12px;
-  height: 12px;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.container {
-  width: 1200px;
-  padding: 0 15px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #now-here {
@@ -178,13 +233,13 @@ body {
 
 .web {
   color: #2196f3;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   font-size: 26px;
 }
 
 .studio {
   color: #000000;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   font-size: 26px;
 }
 
@@ -443,7 +498,7 @@ body {
   height: 16px;
   margin: 0;
   margin-bottom: 27px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -595,6 +650,85 @@ body {
   fill: #2196f3;
 }
 
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.clients h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 36px;
+  color: #212121;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.clients-list {
+  margin: 0;
+}
+
+.client-li {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  margin-right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client-li:last-child {
+  margin-right: 0;
+}
+
+.client-li:hover {
+  border: 1px solid #2196f3;
+}
+
+.clients-icon {
+  fill: #afb1b8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.client-li:hover .clients-icon {
+  fill: #2196f3;
+}
+
+.studio2 {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+}
+
 #footer {
   background: #2f303a;
   padding-top: 60px;
@@ -606,11 +740,6 @@ address p {
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 9px;
-  margin-top: 0;
 }
 
 address a {
@@ -625,6 +754,14 @@ address a {
   margin-bottom: 20px;
 }
 
+address p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 9px;
+  margin-top: 0;
+}
+
 address a:not(:last-child) {
   display: inline-block;
   margin-bottom: 9px;
@@ -635,6 +772,12 @@ address a:not(:last-child) {
   display: -ms-flexbox;
   display: flex;
   padding: 0;
+}
+
+address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .left {
@@ -648,7 +791,7 @@ address a:not(:last-child) {
 
 .right p {
   margin-bottom: 20px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -659,47 +802,19 @@ address a:not(:last-child) {
   color: #ffffff;
 }
 
-.icon-footer {
-  margin: 0;
+.stud {
+  position: relative;
 }
 
-.deb {
-  background-color: #43444d;
-}
-
-.debb {
-  fill: white;
-}
-
-.tt:hover .deb {
+.stud::before {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 4px;
   background-color: #2196f3;
-}
-
-.mail-svg {
-  fill: #757575;
-  margin-right: 10px;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.mail:hover .mail-svg {
-  fill: #2196f3;
-}
-
-.phone-svg {
-  fill: #757575;
-  margin-right: 10px;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.phone:hover .phone-svg {
-  fill: #2196f3;
-}
-
-.icon-card {
-  width: 44px;
-  height: 44px;
+  bottom: 0;
+  border-radius: 5px;
 }
 
 .wrap {
@@ -720,7 +835,7 @@ address a:not(:last-child) {
   margin: 0px;
   margin-bottom: 20px;
   color: white;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -739,7 +854,7 @@ address a:not(:last-child) {
   background-color: #2f303a;
   padding: 0;
   padding-left: 16px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -758,7 +873,7 @@ address a:not(:last-child) {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 0px;
   border-radius: 4px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -767,11 +882,7 @@ address a:not(:last-child) {
   text-align: left;
   padding-left: 29px;
   cursor: pointer;
-}
-
-.telega-link {
   position: relative;
-  display: inline-block;
   margin-left: 12px;
 }
 
@@ -788,12 +899,6 @@ address a:not(:last-child) {
   right: 28px;
   top: 13px;
   margin-left: 10px;
-}
-
-.studio2 {
-  color: #ffffff;
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
 }
 
 .backdrop {
@@ -896,7 +1001,7 @@ address a:not(:last-child) {
   border-radius: 4px;
   border: 0px;
   color: #ffffff;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -917,7 +1022,7 @@ address a:not(:last-child) {
   margin-left: auto;
   width: 448px;
   height: 23px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -933,7 +1038,7 @@ address a:not(:last-child) {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 4px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -943,7 +1048,7 @@ address a:not(:last-child) {
 }
 
 .sogl {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;

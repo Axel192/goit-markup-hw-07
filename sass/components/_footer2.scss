@@ -1,6 +1,6 @@
 .studio2 {
   color: $white;
-  font-family: "Raleway", sans-serif;
+  font-family: $Raleway;
   font-size: 26px;
 }
 
@@ -53,7 +53,7 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: Roboto;
+  font-family: $Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -70,7 +70,7 @@
   border-radius: 4px;
   border: 0px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  font-family: Roboto;
+  font-family: $Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -96,7 +96,7 @@
   bottom: 13px;
 }
 .right p {
-  font-family: Roboto;
+  font-family: $Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -137,7 +137,7 @@
 
 .sub {
   margin: 0;
-  font-family: Roboto;
+  font-family: $Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
