@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: $Roboto;
 }
 
 ul {
@@ -25,26 +25,4 @@ h1 {
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-* {
-  font-family: "Roboto", sans-serif;
-}
-
-ul {
-  list-style-type: none;
-}
-body {
-  margin: 0px;
-}
-a {
-  text-decoration: none;
-}
-h1 {
-  display: none;
 }
